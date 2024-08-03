@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+    color: #333;
+}
+
+
+.header {
+    background: #1d3c45;
+    padding: 10px 0;
+}
+
+a:hover{
+    border-bottom: 2px solid rgb(200, 200, 240);
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.social-links a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('background.jpg') no-repeat center center;
+    background-size: cover;
+    color: #a90c6d;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    height: 500px;
+    margin-right: 50px;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.download-buttons {
+    margin-top: 20px;
+}
+
+.download-buttons a {
+    background: #fff;
+    color: #333;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.users {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.users h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.users p {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+}
